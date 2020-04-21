@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 //main function here
-//Each solution
+//Each solution owns one file
 func main() {
-	fmt.Println(sumZero(10))
+	fmt.Println(maximum69Number(9669))
 }
