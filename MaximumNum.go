@@ -11,7 +11,7 @@ package main
 
 func maximum(a int, b int) int {
 	tmpArray := [2]int{a, b}
-	return tmpArray[((a-b)>>63)&1]
+	return tmpArray[getSymbolDigit(a-b)]
 }
 
 func getSymbolDigit(n int) int {
