@@ -17,3 +17,5 @@ offer offer come to me
 - 2020-04-26 findContinuousSequence MaximunNum
 
 - 2020-04-28 RecursiveMulitply
+
+- 2020-04-30 HappyNumber
