@@ -19,3 +19,5 @@ offer offer come to me
 - 2020-04-28 RecursiveMulitply
 
 - 2020-04-30 HappyNumber
+
+- 2020-05-01 AddBinary
