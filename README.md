@@ -23,3 +23,5 @@ offer offer come to me
 - 2020-05-01 AddBinary
 
 - 2020-05-05 ConvertToBase7
+
+- 2020-05-06 AddStrings
