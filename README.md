@@ -25,3 +25,5 @@ offer offer come to me
 - 2020-05-05 ConvertToBase7
 
 - 2020-05-06 AddStrings
+
+- 2020-05-07 prefixesDivBy5
