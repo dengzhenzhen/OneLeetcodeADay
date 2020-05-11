@@ -27,3 +27,5 @@ offer offer come to me
 - 2020-05-06 AddStrings
 
 - 2020-05-07 prefixesDivBy5
+
+- 2020-05-11 Pow(x, n)
