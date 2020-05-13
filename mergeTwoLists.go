@@ -42,6 +42,63 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	return ret_node.Next.Next
 }
 
+type NodeHead struct {
+	head *ListNode
+}
+
+func NodeInit() NodeHead {
+	return NodeHead{head: nil}
+}
+
+func (this *NodeHead) append(n int) {
+	if this.head == nil {
+		//var tmp *ListNode
+		tmp := new(ListNode)
+		*tmp = ListNode{
+			Val:  n,
+			Next: nil,
+		}
+		this.head = tmp
+	} else {
+		var cur *ListNode
+		cur = new(ListNode)
+		cur = this.head
+		for cur.Next != nil {
+			cur = cur.Next
+		}
+		var tmp *ListNode
+		tmp = new(ListNode)
+		*tmp = ListNode{
+			Val:  n,
+			Next: nil,
+		}
+		cur.Next = tmp
+	}
+}
+
+func (this *NodeHead) add(n int) {
+	var tmp *ListNode
+	tmp = new(ListNode)
+	*tmp = ListNode{Val: n, Next: nil}
+	tmp.Next = this.head
+	this.head = tmp
+}
+
+func (this *NodeHead) print() {
+	var tmp *ListNode
+	tmp = new(ListNode)
+	tmp = this.head
+	for tmp != nil {
+		print(tmp.Val)
+		tmp = tmp.Next
+		if tmp == nil {
+			break
+		}
+		print("->")
+	}
+	println()
+}
+
 /*
 逐个比较，较小的放到要返回的那个链表
 */
