@@ -29,3 +29,5 @@ offer offer come to me
 - 2020-05-07 prefixesDivBy5
 
 - 2020-05-11 Pow(x, n)
+
+- 2020-05-14 SingleNumber
