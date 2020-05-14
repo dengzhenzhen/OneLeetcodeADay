@@ -30,4 +30,4 @@ offer offer come to me
 
 - 2020-05-11 Pow(x, n)
 
-- 2020-05-14 SingleNumber
+- 2020-05-14 SingleNumber MinStack
