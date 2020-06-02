@@ -35,3 +35,5 @@ offer offer come to me
 - 2020-05-15 AddDigits
 
 - 2020-05-19 ArrangeCoins
+
+- 2020-06-02 ComplementofBase10Integer
