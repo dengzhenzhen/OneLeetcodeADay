@@ -5,5 +5,5 @@ import "fmt"
 //main function here
 //Each solution owns one file
 func main() {
-	fmt.Println(bitwiseComplement(10))
+	fmt.Println(translateNum(12258))
 }
