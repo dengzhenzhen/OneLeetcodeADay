@@ -1,11 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //main function here
 //Each solution owns one file
 func main() {
-	fmt.Println(hasAlternatingBits(10))
+	fmt.Println(numSmallerByFrequency([]string{"bbb", "cc"}, []string{"a", "aa", "aaa", "aaaa"}))
 }
 
 func printbinary(n int) {
