@@ -43,3 +43,5 @@ offer offer come to me
 - 2020-06-11 693.Binary Number with Alternating Bits
 
 - 2020-06-21 1170. Compare Strings by Frequency of the Smallest Character
+
+- 2020-06-21 492. Construct the Rectangle

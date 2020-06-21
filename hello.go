@@ -7,7 +7,7 @@ import (
 //main function here
 //Each solution owns one file
 func main() {
-	fmt.Println(numSmallerByFrequency([]string{"bbb", "cc"}, []string{"a", "aa", "aaa", "aaaa"}))
+	fmt.Println(constructRectangle(2))
 }
 
 func printbinary(n int) {
