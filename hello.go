@@ -2,12 +2,24 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 //main function here
 //Each solution owns one file
+var a int = 10
+
 func main() {
-	fmt.Println(constructRectangle(2))
+	ret := findLengthOfLCIS([]int{1, 3, 5, 4, 2, 3, 4, 5})
+	fmt.Println(ret)
+}
+
+func printNum(num int, c *chan int) {
+	for i := 0; i < 10; i++ {
+		fmt.Println(num)
+		time.Sleep(100 * time.Millisecond)
+	}
+	*c <- 0
 }
 
 func printbinary(n int) {
