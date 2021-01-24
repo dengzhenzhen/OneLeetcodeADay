@@ -45,3 +45,5 @@ offer offer come to me
 - 2020-06-21 1170. Compare Strings by Frequency of the Smallest Character
 
 - 2020-06-21 492. Construct the Rectangle
+
+- 2021-01-24 674  Longest Continuous Increasing Subsequence 最长连续递增序列
