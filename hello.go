@@ -10,7 +10,7 @@ import (
 var a int = 10
 
 func main() {
-	ret := findLengthOfLCIS([]int{1, 3, 5, 4, 2, 3, 4, 5})
+	ret := rob([]int{2, 7, 9, 3, 1})
 	fmt.Println(ret)
 }
 
