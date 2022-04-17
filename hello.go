@@ -10,7 +10,7 @@ import (
 var a int = 10
 
 func main() {
-	ret := rob([]int{2, 7, 9, 3, 1})
+	ret := rob([]int{2, 1, 1, 2})
 	fmt.Println(ret)
 }
 
